@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Projects"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "surface_app": {
+      "type": "string"
+    },
+    "point_area": {
+      "type": "string"
+    },
+    "delivery_date": {
+      "type": "string"
+    },
+    "ral_code": {
+      "type": "string"
+    },
+    "pipe_time": {
+      "type": "string"
+    },
+    "node_time": {
+      "type": "string"
+    },
+    "point_time": {
+      "type": "string"
+    },
+    "pipe_dict": {
+      "type": "string"
+    },
+    "node_dict": {
+      "type": "string"
+    },
+    "pipe_point_dict": {
+      "type": "string"
+    }
+  }
+}
