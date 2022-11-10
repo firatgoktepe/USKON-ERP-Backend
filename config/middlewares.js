@@ -14,15 +14,7 @@ module.exports = [
       },
     },
   },
-  {
-    name: 'strapi::cors',
-    config: {
-      enabled: true,
-      headers: '*',
-      origin: ['http://localhost:3000', 'https://arda-frontend-erp.vercel.app/']
-    }
-  },
-  // 'strapi::cors',
+  'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
